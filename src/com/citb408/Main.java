@@ -43,5 +43,18 @@ public class Main {
         //can't see the getters from the Vehicle class
         System.out.println(goods.sellingPrice());
         System.out.println(goods.productionPrice());
+
+        Engineer engineer = new Engineer(120, 40);
+
+        TaxiDriver taxiDriver = new TaxiDriver("Person", "A32", 3, 400);
+
+        provider = engineer;
+
+        System.out.println(provider.calculateIncome());
+
+        provider = taxiDriver;
+
+        System.out.println(provider.calculateIncome());
+
     }
 }
