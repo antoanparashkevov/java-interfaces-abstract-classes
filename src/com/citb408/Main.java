@@ -1,3 +1,8 @@
+package com.citb408;
+
+import com.citb408.document.Document;
+import com.citb408.document.Printable;
+
 public class Main {
     public static void main(String[] args) {
 
